@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://127.0.0.1:5000/login -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="stylesheet" href="./login_files/register.css">
+    
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="./login_files/bootstrap.min.css" style="width:50%;max-width:100px" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+<body>
+
+  <div class="card" style="width: 18rem;">
+    <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+    <div class="card-body">
+    </div>
+  </div>
+ 
+  <form method="POST">
+    <h2>log in</h2>
+    <div class="input-container">
+      <i class="fa fa-envelope icon"></i>
+      <input class="input-field" type="text" placeholder="Email" name="email">
+    </div>
+  
+    <div class="input-container">
+      <i class="fa fa-key icon"></i>
+      <input class="input-field" type="password" placeholder="Password" name="password">
+    </div>
+  
+    <button type="submit" href="/" class="btn">Sign in</button>
+  </form>
+
+  <script src="./login_files/jquery-3.2.1.slim.min.js.download" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="./login_files/popper.min.js.download" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="./login_files/bootstrap.min.js.download" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+  
+  </body></html>
